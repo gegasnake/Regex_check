@@ -1,0 +1,17 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+form {
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.button {
+    padding-top: 20px;
+}

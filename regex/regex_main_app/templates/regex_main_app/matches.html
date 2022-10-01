@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+{% extends 'regex_main_app/main.html' %}
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
+    <meta charset="UTF-8">
+    <title>It matches</title>
 </head>
 <body>
-
+    {% block content %}
+    <h1>It matches!</h1>
+    <a href="{% url 'home' %}">Go back to form</a>
+    {% endblock content %}
 </body>
 </html>
